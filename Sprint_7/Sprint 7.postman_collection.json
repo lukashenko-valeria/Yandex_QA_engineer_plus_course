@@ -1,0 +1,1360 @@
+{
+	"info": {
+		"_postman_id": "d3f5c909-114e-43c9-8865-5f98c72bedab",
+		"name": "Sprint 7",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30785895"
+	},
+	"item": [
+		{
+			"name": "Допустимое количество продуктов в заказе(1)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>1</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое количество продуктов в заказе (7)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>7</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое количество продуктов (0)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>0</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое количество продуктов в заказе (8)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>8</productsCount>\r\n    <productsWeight>3</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое количество продуктов в заказе (15)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>15</productsCount>\r\n    <productsWeight>3</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Количество продуктов больше 16 шт",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>16</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Вес продуктов равен 0",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>0</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимый вес в заказе (0,1кг)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>0.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимый вес в заказе (2,5кг)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>2.5</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимый вес в заказе (2,6кг)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>2.6</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимый вес в заказе (6кг)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>6</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Вес заказа (6,1кг)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>6.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое время доставки (25 мин)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>25</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Допустимое время доставки (30мин)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>30</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Недопустимое время доставки (31мин)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>31</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Недопустимое время доставки",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>0</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Количество товаров 9, а вес 2 кг",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>9</productsCount>\r\n    <productsWeight>2</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Количество товаров 3 шт, вес 3 кг",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>3</productsCount>\r\n    <productsWeight></productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Запрос с не существующим id корзины",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/orders/100500",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"100500"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с id корзины = 0",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/v1/orders/0",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с id существующей корзины(2)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/v1/orders/2",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с существующим id продуктов",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 4\r\n        },\r\n        {\r\n            \"id\": 5,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/orders/2",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Добавление продуктов с несуществующим id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 100500,\r\n            \"quantity\": 4\r\n        },\r\n        {\r\n            \"id\": 100500,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/orders/2",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с id продуктов = 0",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 0,\r\n            \"quantity\": 4\r\n        },\r\n        {\r\n            \"id\": 0,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 0,\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"id\": 0,\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}"
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/orders/2",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление корзины с существующим id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/v1/orders/2",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление корзины с не существующим id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/orders/100500",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"100500"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Удаление корзины с id = 0",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/v1/orders/0",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Список доставок",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{server}}/api/v1/couriers",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"couriers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Стоимость доставки в курьерских службах",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 3\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"id\": 9,\r\n            \"quantity\": 3\r\n        }\r\n    ],\r\n    \"deliveryTime\": 7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/couriers/check",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"couriers",
+						"check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Создание корзины",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 5,\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://a32c80d4-bd65-44db-b293-a155560493f7.serverhub.praktikum-services.ru/api/v1/orders",
+					"protocol": "https",
+					"host": [
+						"a32c80d4-bd65-44db-b293-a155560493f7",
+						"serverhub",
+						"praktikum-services",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доставка не возможна при пустом значении <productsCount>",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount></productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доставка не возможна при пустом значении параметра <productsWeight>",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight></productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доставка не возможна при пустом значении параметра <deliveryTime>",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime></deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доставка не возможна при отсутствующем параметре <productsCount>",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доставка не возможна при отсутствующем параметре  <productsWeight>",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доставка не возможна при отсутствующем параметре  <deliveryTime>",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доставка не возможна при <productsCount> содержащем недопустимые символы (Ф,Y,@, ,-)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>Ф</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доставка не возможна при <productsWeight> содержащем недопустимые символы (Ф,Y,@, ,-",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>@</productsWeight>\r\n    <deliveryTime>20</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Доставка не возможна при <deliveryTime> содержащем недопустимые символы (Ф,Y,@, ,-",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<InputModel>\r\n    <productsCount>2</productsCount>\r\n    <productsWeight>5.1</productsWeight>\r\n    <deliveryTime>-</deliveryTime>\r\n</InputModel>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/fast-delivery/v3.1.1/calculate-delivery.xml",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"fast-delivery",
+						"v3.1.1",
+						"calculate-delivery.xml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Цена продуктов в заказе меньше 150 руб",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"products\": [\r\n        {\r\n            \"id\": 4,\r\n            \"quantity\": 1\r\n        }\r\n    ],\r\n    \"deliveryTime\": 7\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/couriers/check",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"couriers",
+						"check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с пустым массивом:",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": []\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/kits/8",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"kits",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с данными в виде списка строк:",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\"1,2\", \"6,2\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/kits/8",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"kits",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с отрицательными значениями:",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": -2\r\n        },\r\n        {\r\n            \"id\": 6,\r\n            \"quantity\": -2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/kits/8",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"kits",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с данными в виде строки",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"productsList\": \"1,2;6,2\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/kits/8",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"kits",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с числами в строчном формате",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": \"1\",\r\n            \"quantity\": \"4\"\r\n        },\r\n        {\r\n            \"id\": \"5\",\r\n            \"quantity\": \"2\"\r\n        },\r\n        {\r\n            \"id\": \"3\",\r\n            \"quantity\": \"1\"\r\n        },\r\n        {\r\n            \"id\": \"4\",\r\n            \"quantity\": \"1\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/kits/8",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"kits",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с не валидными значениями для \"quantity\" (3.4; one,@, Ф, Y, )",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": 1,\r\n            \"quantity\": \"Н\"\r\n        },\r\n        {\r\n            \"id\": 5,\r\n            \"quantity\": \"Н\"\r\n        },\r\n        {\r\n            \"id\": 3,\r\n            \"quantity\": \"Н\"\r\n        },\r\n        {\r\n            \"id\": 4,\r\n            \"quantity\": \"Н\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/kits/8",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"kits",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Отправление запроса с не валидными значениями для \"id\" (3.4; one,@, Ф, Y, )",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productsList\": [\r\n        {\r\n            \"id\": \"@\",\r\n            \"quantity\": 4\r\n        },\r\n        {\r\n            \"id\": \"@\",\r\n            \"quantity\": 2\r\n        },\r\n        {\r\n            \"id\": \"@\",\r\n            \"quantity\": 1\r\n        },\r\n        {\r\n            \"id\": \"@\",\r\n            \"quantity\": 1\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/kits/8",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"kits",
+						"8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Запрос товаров с не существующим id и запросом authorizathion",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Authorization\": \"Bearer jknnFApafP4awfAIFfafam2fma\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/orders/100500",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"100500"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Запрос товаров с существующим id  и запросом Authorization",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Authorization\": \"Bearer jknnFApafP4awfAIFfafam2fma\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{server}}/api/v1/orders/2",
+					"host": [
+						"{{server}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orders",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

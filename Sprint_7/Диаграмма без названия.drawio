@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-11-11T15:24:42.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Y32wrUWYP6xBb5mb5gGy" version="22.1.0" type="google">
+  <diagram name="Страница — 1" id="VSrbTW8PRhiKTo6SeMPX">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-1" value="Создание набора&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-3" value="API&lt;br&gt;Прилавок&lt;br&gt;backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-4" value="База данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xbKCAPLtjIzkoSjQrsyp-3" target="xbKCAPLtjIzkoSjQrsyp-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.022;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.983;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xbKCAPLtjIzkoSjQrsyp-4" target="xbKCAPLtjIzkoSjQrsyp-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xbKCAPLtjIzkoSjQrsyp-1" target="xbKCAPLtjIzkoSjQrsyp-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xbKCAPLtjIzkoSjQrsyp-3" target="xbKCAPLtjIzkoSjQrsyp-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="270" as="sourcePoint" />
+            <mxPoint x="550" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-10" value="&lt;div&gt;запрос на создание нового набора&lt;/div&gt;&lt;div&gt;&lt;p class=&quot;MsoNormal&quot;&gt;POST /api/v1/kits&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-11" value="Запрос на сохранение &lt;br&gt;данных нового набора" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="183" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-12" value="Ответ о добавлении&lt;br&gt;нового набора" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="273" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xbKCAPLtjIzkoSjQrsyp-13" value="Набор добавлен" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="288" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
